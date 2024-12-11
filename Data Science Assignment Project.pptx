@@ -1,0 +1,156 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9618dd75-3908-4aea-85a3-efb81ecc69f2",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Topic: Crime "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b7b39c2a-3c69-4f51-8513-9d7f3215f567",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Pandas Introduction\n",
+    "Import Pandas as pd"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "fd65c9ac-a6e4-4d2e-be37-4517d63b6a5d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Complaint_data=[24,13,23,5,24,18,28,30,13,34]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0629dd12-57e8-4a1e-8e63-52b10811d612",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Columns=(CMPLNT_NUM ), (addr_pct_cd),)boro_nm),(cmpint_to_tm),(crm_atp_ctpd_cd),(boro_nm),(cmpint_fr_tm),(crm_atpt_cptd_cd),(hadevelopt),(juris_desc),(ky_cd),(loc_of_occur_desc),(ofn_desc),(parks_nm),(pd_cd),(pd_desc),(prem_typ_desc),(rpt_dt),(x_coord_cd),(latitude),(longitude),(lat_lon)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "11359010-66d9-491b-b800-aeabf2fd1815",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Complaint=pd.Dataframe(data=complaint_data,columns=columns)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "42a65992-e679-41bf-8cfd-b373f2924454",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Complaint=286159230   24 MANHATTAN\n",
+    "2016-01-01T00.000\n",
+    "15:00\n",
+    "2018-01-01T00:00:000\n",
+    "284390764            13 MANHATTAN\n",
+    "2016-01-0100:000\n",
+    "12:00:00\n",
+    "2024-03-26T00:00:000\n",
+    "282326671            28 MANHATTAN\n",
+    "2016-01-25T00:00:000\n",
+    "01:56:00\n",
+    "2016-06-21T00:00:00:000\n",
+    "285539608            30 MANHATTAN\n",
+    "2016-07-24T00:00:00.00\n",
+    "00:01:00\n",
+    "2017-07-23T00:00:000\n",
+    "2841731995           14 MANHATTAN\n",
+    "2016-10-00T00:00:00:000\n",
+    "00:00.00\n",
+    "2019-09-10T00:00:00.000\n",
+    "284167496            34 MANHATTAN\n",
+    "2016-12-01T00:00:00:000\n",
+    "00:01:00\n",
+    "2016-12-31T00:00:000"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2f7a60e8-4d78-4e8b-9ca2-a08d0d0966b4",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Rows=\n",
+    "Precinct-it's a police station where the police Department takes care of their duties. \n",
+    "Location-A specific point or place in which something occurs\n",
+    "Date-When something happens, month, day, and year.\n",
+    "Time-A point in time which hours and minutes each day."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "6d8dcd69-59f1-419c-8c62-016584e51489",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "\"Import pandas\"\n",
+    "\"Import pandas as pd\"\n",
+    "\"from math import sqrt\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f3c16fa7-aa93-41e5-ae84-af0849ce508d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Import pandas as pd\n",
+    "pd.read_csv(\"filepath\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2a449c53-917d-4bc0-8287-b6dff58fb6d7",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Current-Year-To-Date-/5uac-w243/about_data"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
